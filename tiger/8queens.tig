@@ -1,0 +1,6 @@
+    let
+    var a := 0
+    function test() =
+    while a<3 do (print("hello");break)
+ in test();
+end

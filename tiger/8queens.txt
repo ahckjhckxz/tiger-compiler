@@ -1,0 +1,1406 @@
+push ebp
+mov ebp, esp
+sub esp, 0xFF
+mov LevelFrame[4], ebp
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 8
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+lea ebx, initArray
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov edx, [ebx]
+mov ARG[0], edx
+mov edx, 0
+mov ARG[4], edx
+pop ebx
+mov ecx, ARG[4]
+push ecx
+mov ecx, ARG[0]
+push ecx
+call ebx
+add esp, 8
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -12
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+lea ebx, initArray
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov edx, [ebx]
+mov ARG[8], edx
+mov edx, 0
+mov ARG[12], edx
+pop ebx
+mov ecx, ARG[12]
+push ecx
+mov ecx, ARG[8]
+push ecx
+call ebx
+add esp, 8
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -16
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+lea ebx, initArray
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+add eax, ecx
+mov eax, eax
+push eax
+mov ecx, 1
+pop eax
+sub eax, ecx
+mov edx, eax
+mov ARG[16], edx
+mov edx, 0
+mov ARG[20], edx
+pop ebx
+mov ecx, ARG[20]
+push ecx
+mov ecx, ARG[16]
+push ecx
+call ebx
+add esp, 8
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -20
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+lea ebx, initArray
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+add eax, ecx
+mov eax, eax
+push eax
+mov ecx, 1
+pop eax
+sub eax, ecx
+mov edx, eax
+mov ARG[24], edx
+mov edx, 0
+mov ARG[28], edx
+pop ebx
+mov ecx, ARG[28]
+push ecx
+mov ecx, ARG[24]
+push ecx
+call ebx
+add esp, 8
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -24
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 0
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -28
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 0
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+L1:
+push ebp
+mov ebp, esp
+sub esp, 0xFF
+push eax
+lea ebx, L12
+push ebx
+mov edx, 0
+mov ARG[32], edx
+pop ebx
+mov ecx, ARG[32]
+push ecx
+call ebx
+add esp, 4
+pop eax
+add esp, 0xFF
+pop ebp
+jmp end
+L11:
+push ebp
+mov ebp, esp
+sub esp, 0xFF
+mov LevelFrame[8], ebp
+push eax
+push eax
+lea eax, L30
+push eax
+pop eax
+pop eax
+jmp [esp-8]
+L31:
+push eax
+push eax
+push eax
+push ebx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -28
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 0
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+push eax
+lea eax, L26
+push eax
+pop eax
+pop eax
+jmp [esp-8]
+L27:
+push eax
+push eax
+push eax
+push ebx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -28
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -28
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 1
+pop eax
+add eax, ecx
+mov eax, eax
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+push ecx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -12
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -24
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -28
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 1
+pop eax
+sub eax, ecx
+mov ecx, eax
+pop eax
+cmp eax, ecx
+pop ecx
+pop eax
+je L23
+jmp L24
+L23:
+push eax
+lea ebx, printf
+push ebx
+lea edx, L19
+mov ARG[36], edx
+pop ebx
+mov ecx, ARG[36]
+push ecx
+call ebx
+add esp, 4
+pop eax
+push eax
+lea eax, L25
+push eax
+pop eax
+pop eax
+jmp [esp-8]
+L24:
+push eax
+lea ebx, printf
+push ebx
+lea edx, L21
+mov ARG[40], edx
+pop ebx
+mov ecx, ARG[40]
+push ecx
+call ebx
+add esp, 4
+pop eax
+push eax
+lea eax, L25
+push eax
+pop eax
+pop eax
+jmp [esp-8]
+L25:
+mov eax, 0
+pop eax
+L26:
+push eax
+push ecx
+push eax
+push ebx
+mov ebx, TEMP[8]
+lea edi, TEMP[8]
+push ebx
+push edi
+mov eax, 1
+pop edi
+pop ebx
+mov [edi], eax
+pop ebx
+pop eax
+push eax
+push ecx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -28
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+cmp eax, ecx
+pop ecx
+pop eax
+jl L16
+jmp L17
+L17:
+push eax
+push ebx
+mov ebx, TEMP[8]
+lea edi, TEMP[8]
+push ebx
+push edi
+mov eax, 0
+pop edi
+pop ebx
+mov [edi], eax
+pop ebx
+pop eax
+L16:
+mov eax, TEMP[8]
+lea edi, TEMP[8]
+push eax
+mov ecx, 0
+pop eax
+cmp eax, ecx
+pop ecx
+pop eax
+je L18
+jmp L27
+L18:
+mov eax, 0
+pop eax
+push eax
+lea ebx, printf
+push ebx
+lea edx, L28
+mov ARG[44], edx
+pop ebx
+mov ecx, ARG[44]
+push ecx
+call ebx
+add esp, 4
+pop eax
+push eax
+push ebx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -24
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -24
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 1
+pop eax
+add eax, ecx
+mov eax, eax
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+L30:
+push eax
+push ecx
+push eax
+push ebx
+mov ebx, TEMP[4]
+lea edi, TEMP[4]
+push ebx
+push edi
+mov eax, 1
+pop edi
+pop ebx
+mov [edi], eax
+pop ebx
+pop eax
+push eax
+push ecx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -24
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+cmp eax, ecx
+pop ecx
+pop eax
+jl L13
+jmp L14
+L14:
+push eax
+push ebx
+mov ebx, TEMP[4]
+lea edi, TEMP[4]
+push ebx
+push edi
+mov eax, 0
+pop edi
+pop ebx
+mov [edi], eax
+pop ebx
+pop eax
+L13:
+mov eax, TEMP[4]
+lea edi, TEMP[4]
+push eax
+mov ecx, 0
+pop eax
+cmp eax, ecx
+pop ecx
+pop eax
+je L15
+jmp L31
+L15:
+mov eax, 0
+pop eax
+add esp, 0xFF
+pop ebp
+ret
+L12:
+push ebp
+mov ebp, esp
+sub esp, 0xFF
+mov LevelFrame[8], ebp
+push eax
+push eax
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 0
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+push ecx
+mov eax, ebp
+push eax
+mov ecx, 8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+cmp eax, ecx
+pop ecx
+pop eax
+je L40
+jmp L41
+L40:
+push eax
+lea ebx, L11
+push ebx
+pop ebx
+call ebx
+add esp, 0
+pop eax
+push eax
+lea eax, L42
+push eax
+pop eax
+pop eax
+jmp [esp-8]
+L41:
+push eax
+push eax
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 0
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+lea eax, L38
+push eax
+pop eax
+pop eax
+jmp [esp-8]
+L39:
+push eax
+push eax
+push ecx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -16
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, 8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+add eax, ecx
+mov eax, eax
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+add eax, ecx
+mov eax, eax
+push eax
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -20
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 7
+pop eax
+add eax, ecx
+mov eax, eax
+push eax
+mov eax, ebp
+push eax
+mov ecx, 8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+sub eax, ecx
+mov eax, eax
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+add eax, ecx
+mov eax, eax
+push eax
+mov ecx, 0
+pop eax
+cmp eax, ecx
+pop ecx
+pop eax
+je L35
+jmp L36
+L35:
+push eax
+push eax
+push eax
+push ebx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 1
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+push eax
+push ebx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -16
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, 8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+add eax, ecx
+mov eax, eax
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 1
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+push eax
+push ebx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -20
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 7
+pop eax
+add eax, ecx
+mov eax, eax
+push eax
+mov eax, ebp
+push eax
+mov ecx, 8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+sub eax, ecx
+mov eax, eax
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 1
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+push eax
+push ebx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -12
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, 8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+lea ebx, L12
+push ebx
+mov eax, ebp
+push eax
+mov ecx, 8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 1
+pop eax
+add eax, ecx
+mov edx, eax
+mov ARG[48], edx
+pop ebx
+mov ecx, ARG[48]
+push ecx
+call ebx
+add esp, 4
+pop eax
+push eax
+push eax
+push ebx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 0
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+push eax
+push ebx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -16
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, 8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+add eax, ecx
+mov eax, eax
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 0
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+push eax
+push ebx
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -20
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 7
+pop eax
+add eax, ecx
+mov eax, eax
+push eax
+mov eax, ebp
+push eax
+mov ecx, 8
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+sub eax, ecx
+mov eax, eax
+push eax
+mov ecx, 4
+pop eax
+mul cx
+mov ecx, eax
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, 0
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 1
+pop eax
+add eax, ecx
+mov eax, eax
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+lea eax, L37
+push eax
+pop eax
+pop eax
+jmp [esp-8]
+L36:
+push eax
+push eax
+push ebx
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ebx, [ebx]
+push ebx
+push esi
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, 1
+pop eax
+add eax, ecx
+mov eax, eax
+pop esi
+pop ebx
+mov [esi], eax
+pop ebx
+pop eax
+mov eax, 0
+pop eax
+push eax
+lea eax, L37
+push eax
+pop eax
+pop eax
+jmp [esp-8]
+L37:
+mov eax, 0
+pop eax
+L38:
+push eax
+push ecx
+push eax
+push ebx
+mov ebx, TEMP[16]
+lea edi, TEMP[16]
+push ebx
+push edi
+mov eax, 1
+pop edi
+pop ebx
+mov [edi], eax
+pop ebx
+pop eax
+push eax
+push ecx
+mov eax, ebp
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov eax, [ebx]
+push eax
+lea ebx, LevelFrame[4]
+mov esi, ebx
+mov eax, [ebx]
+push eax
+mov ecx, -4
+pop eax
+add eax, ecx
+mov ebx, eax
+mov esi, ebx
+mov ecx, [ebx]
+pop eax
+cmp eax, ecx
+pop ecx
+pop eax
+jl L32
+jmp L33
+L33:
+push eax
+push ebx
+mov ebx, TEMP[16]
+lea edi, TEMP[16]
+push ebx
+push edi
+mov eax, 0
+pop edi
+pop ebx
+mov [edi], eax
+pop ebx
+pop eax
+L32:
+mov eax, TEMP[16]
+lea edi, TEMP[16]
+push eax
+mov ecx, 0
+pop eax
+cmp eax, ecx
+pop ecx
+pop eax
+je L34
+jmp L39
+L34:
+mov eax, 0
+pop eax
+push eax
+lea eax, L42
+push eax
+pop eax
+pop eax
+jmp [esp-8]
+L42:
+mov eax, 0
+pop eax
+add esp, 0xFF
+pop ebp
+ret

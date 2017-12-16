@@ -1,0 +1,61 @@
+char L13[]="\x68\x65\x6c\x6c\x6f";
+char L14[]="\x68\x65\x6c\x6c\x6f";
+ MOVE(
+  MEM(
+   BINOP(PLUS,
+    TEMP t100,
+    CONST -4)),
+  CONST 0)
+L1
+ EXP(
+  CALL(
+   NAME L11))
+L11
+ EXP(
+  ESEQ(
+   JUMP(
+    NAME L15),
+   ESEQ(
+    LABEL L16,
+    ESEQ(
+     EXP(
+      ESEQ(
+       EXP(
+        CALL(
+         NAME L0,
+          NAME L13)),
+       ESEQ(
+        JUMP(
+         NAME L12),
+        CONST 0))),
+     ESEQ(
+      LABEL L15,
+      ESEQ(
+       CJUMP(EQ,
+        ESEQ(
+         MOVE(
+          TEMP t101,
+          CONST 1),
+         ESEQ(
+          CJUMP(LT,
+           MEM(
+            BINOP(PLUS,
+             MEM(
+              TEMP t100),
+             CONST -4)),
+           CONST 3,
+           L17,L18),
+          ESEQ(
+           LABEL L18,
+           ESEQ(
+            MOVE(
+             TEMP t101,
+             CONST 0),
+            ESEQ(
+             LABEL L17,
+             TEMP t101))))),
+        CONST 0,
+        L12,L16),
+       ESEQ(
+        LABEL L12,
+        CONST 0)))))))

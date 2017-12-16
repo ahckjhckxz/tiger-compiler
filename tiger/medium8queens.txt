@@ -1,0 +1,640 @@
+L19	 O
+L20	 O
+L21	 .
+L22	 .
+L28	
+
+L29	
+
+ MOVE(
+  MEM(
+   BINOP(PLUS,
+    TEMP t100,
+    CONST -4)),
+  CONST 8)
+ MOVE(
+  MEM(
+   BINOP(PLUS,
+    TEMP t100,
+    CONST -8)),
+  CALL(
+   NAME initArray,
+    MEM(
+     BINOP(PLUS,
+      TEMP t100,
+      CONST -4)),
+    CONST 0))
+ MOVE(
+  MEM(
+   BINOP(PLUS,
+    TEMP t100,
+    CONST -12)),
+  CALL(
+   NAME initArray,
+    MEM(
+     BINOP(PLUS,
+      TEMP t100,
+      CONST -4)),
+    CONST 0))
+ MOVE(
+  MEM(
+   BINOP(PLUS,
+    TEMP t100,
+    CONST -16)),
+  CALL(
+   NAME initArray,
+    BINOP(MINUS,
+     BINOP(PLUS,
+      MEM(
+       BINOP(PLUS,
+        TEMP t100,
+        CONST -4)),
+      MEM(
+       BINOP(PLUS,
+        TEMP t100,
+        CONST -4))),
+     CONST 1),
+    CONST 0))
+ MOVE(
+  MEM(
+   BINOP(PLUS,
+    TEMP t100,
+    CONST -20)),
+  CALL(
+   NAME initArray,
+    BINOP(MINUS,
+     BINOP(PLUS,
+      MEM(
+       BINOP(PLUS,
+        TEMP t100,
+        CONST -4)),
+      MEM(
+       BINOP(PLUS,
+        TEMP t100,
+        CONST -4))),
+     CONST 1),
+    CONST 0))
+ MOVE(
+  MEM(
+   BINOP(PLUS,
+    TEMP t100,
+    CONST -24)),
+  CONST 0)
+ MOVE(
+  MEM(
+   BINOP(PLUS,
+    TEMP t100,
+    CONST -28)),
+  CONST 0)
+L1
+ EXP(
+  CALL(
+   NAME L12,
+    CONST 0))
+L11
+ EXP(
+  ESEQ(
+   JUMP(
+    NAME L30),
+   ESEQ(
+    LABEL L31,
+    ESEQ(
+     EXP(
+      ESEQ(
+       EXP(
+        ESEQ(
+         MOVE(
+          MEM(
+           BINOP(PLUS,
+            MEM(
+             TEMP t100),
+            CONST -28)),
+          CONST 0),
+         CONST 0)),
+       ESEQ(
+        EXP(
+         ESEQ(
+          JUMP(
+           NAME L26),
+          ESEQ(
+           LABEL L27,
+           ESEQ(
+            EXP(
+             ESEQ(
+              EXP(
+               ESEQ(
+                MOVE(
+                 MEM(
+                  BINOP(PLUS,
+                   MEM(
+                    TEMP t100),
+                   CONST -28)),
+                 BINOP(PLUS,
+                  MEM(
+                   BINOP(PLUS,
+                    MEM(
+                     TEMP t100),
+                    CONST -28)),
+                  CONST 1)),
+                CONST 0)),
+              ESEQ(
+               SEQ(
+                CJUMP(EQ,
+                 MEM(
+                  BINOP(PLUS,
+                   MEM(
+                    BINOP(PLUS,
+                     MEM(
+                      TEMP t100),
+                     CONST -12)),
+                   BINOP(TIMES,
+                    MEM(
+                     BINOP(PLUS,
+                      MEM(
+                       TEMP t100),
+                      CONST -24)),
+                    CONST 4))),
+                 BINOP(MINUS,
+                  MEM(
+                   BINOP(PLUS,
+                    MEM(
+                     TEMP t100),
+                    CONST -28)),
+                  CONST 1),
+                 L23,L24),
+                SEQ(
+                 LABEL L23,
+                 SEQ(
+                  EXP(
+                   CALL(
+                    NAME L0,
+                     NAME L19)),
+                  SEQ(
+                   JUMP(
+                    NAME L25),
+                   SEQ(
+                    LABEL L24,
+                    SEQ(
+                     EXP(
+                      CALL(
+                       NAME L0,
+                        NAME L21)),
+                     SEQ(
+                      JUMP(
+                       NAME L25),
+                      LABEL L25))))))),
+               CONST 0))),
+            ESEQ(
+             LABEL L26,
+             ESEQ(
+              CJUMP(EQ,
+               ESEQ(
+                MOVE(
+                 TEMP t102,
+                 CONST 1),
+                ESEQ(
+                 CJUMP(LT,
+                  MEM(
+                   BINOP(PLUS,
+                    MEM(
+                     TEMP t100),
+                    CONST -28)),
+                  MEM(
+                   BINOP(PLUS,
+                    MEM(
+                     TEMP t100),
+                    CONST -4)),
+                  L16,L17),
+                 ESEQ(
+                  LABEL L17,
+                  ESEQ(
+                   MOVE(
+                    TEMP t102,
+                    CONST 0),
+                   ESEQ(
+                    LABEL L16,
+                    TEMP t102))))),
+               CONST 0,
+               L18,L27),
+              ESEQ(
+               LABEL L18,
+               CONST 0))))))),
+        ESEQ(
+         EXP(
+          CALL(
+           NAME L0,
+            NAME L28)),
+         ESEQ(
+          MOVE(
+           MEM(
+            BINOP(PLUS,
+             MEM(
+              TEMP t100),
+             CONST -24)),
+           BINOP(PLUS,
+            MEM(
+             BINOP(PLUS,
+              MEM(
+               TEMP t100),
+              CONST -24)),
+            CONST 1)),
+          CONST 0))))),
+     ESEQ(
+      LABEL L30,
+      ESEQ(
+       CJUMP(EQ,
+        ESEQ(
+         MOVE(
+          TEMP t101,
+          CONST 1),
+         ESEQ(
+          CJUMP(LT,
+           MEM(
+            BINOP(PLUS,
+             MEM(
+              TEMP t100),
+             CONST -24)),
+           MEM(
+            BINOP(PLUS,
+             MEM(
+              TEMP t100),
+             CONST -4)),
+           L13,L14),
+          ESEQ(
+           LABEL L14,
+           ESEQ(
+            MOVE(
+             TEMP t101,
+             CONST 0),
+            ESEQ(
+             LABEL L13,
+             TEMP t101))))),
+        CONST 0,
+        L15,L31),
+       ESEQ(
+        LABEL L15,
+        CONST 0)))))))
+L12
+ EXP(
+  ESEQ(
+   EXP(
+    ESEQ(
+     MOVE(
+      MEM(
+       BINOP(PLUS,
+        TEMP t100,
+        CONST -4)),
+      CONST 0),
+     CONST 0)),
+   ESEQ(
+    SEQ(
+     CJUMP(EQ,
+      MEM(
+       BINOP(PLUS,
+        TEMP t100,
+        CONST 8)),
+      MEM(
+       BINOP(PLUS,
+        MEM(
+         TEMP t100),
+        CONST -4)),
+      L40,L41),
+     SEQ(
+      LABEL L40,
+      SEQ(
+       EXP(
+        CALL(
+         NAME L11)),
+       SEQ(
+        JUMP(
+         NAME L42),
+        SEQ(
+         LABEL L41,
+         SEQ(
+          EXP(
+           ESEQ(
+            EXP(
+             ESEQ(
+              MOVE(
+               MEM(
+                BINOP(PLUS,
+                 TEMP t100,
+                 CONST -4)),
+               CONST 0),
+              CONST 0)),
+            ESEQ(
+             JUMP(
+              NAME L38),
+             ESEQ(
+              LABEL L39,
+              ESEQ(
+               EXP(
+                ESEQ(
+                 SEQ(
+                  CJUMP(EQ,
+                   BINOP(PLUS,
+                    BINOP(PLUS,
+                     MEM(
+                      BINOP(PLUS,
+                       MEM(
+                        BINOP(PLUS,
+                         MEM(
+                          TEMP t100),
+                         CONST -8)),
+                       BINOP(TIMES,
+                        MEM(
+                         BINOP(PLUS,
+                          TEMP t100,
+                          CONST -4)),
+                        CONST 4))),
+                     MEM(
+                      BINOP(PLUS,
+                       MEM(
+                        BINOP(PLUS,
+                         MEM(
+                          TEMP t100),
+                         CONST -16)),
+                       BINOP(TIMES,
+                        BINOP(PLUS,
+                         MEM(
+                          BINOP(PLUS,
+                           TEMP t100,
+                           CONST -4)),
+                         MEM(
+                          BINOP(PLUS,
+                           TEMP t100,
+                           CONST 8))),
+                        CONST 4)))),
+                    MEM(
+                     BINOP(PLUS,
+                      MEM(
+                       BINOP(PLUS,
+                        MEM(
+                         TEMP t100),
+                        CONST -20)),
+                      BINOP(TIMES,
+                       BINOP(MINUS,
+                        BINOP(PLUS,
+                         MEM(
+                          BINOP(PLUS,
+                           TEMP t100,
+                           CONST -4)),
+                         CONST 7),
+                        MEM(
+                         BINOP(PLUS,
+                          TEMP t100,
+                          CONST 8))),
+                       CONST 4)))),
+                   CONST 0,
+                   L35,L36),
+                  SEQ(
+                   LABEL L35,
+                   SEQ(
+                    EXP(
+                     ESEQ(
+                      EXP(
+                       ESEQ(
+                        MOVE(
+                         MEM(
+                          BINOP(PLUS,
+                           MEM(
+                            BINOP(PLUS,
+                             MEM(
+                              TEMP t100),
+                             CONST -8)),
+                           BINOP(TIMES,
+                            MEM(
+                             BINOP(PLUS,
+                              TEMP t100,
+                              CONST -4)),
+                            CONST 4))),
+                         CONST 1),
+                        CONST 0)),
+                      ESEQ(
+                       EXP(
+                        ESEQ(
+                         MOVE(
+                          MEM(
+                           BINOP(PLUS,
+                            MEM(
+                             BINOP(PLUS,
+                              MEM(
+                               TEMP t100),
+                              CONST -16)),
+                            BINOP(TIMES,
+                             BINOP(PLUS,
+                              MEM(
+                               BINOP(PLUS,
+                                TEMP t100,
+                                CONST -4)),
+                              MEM(
+                               BINOP(PLUS,
+                                TEMP t100,
+                                CONST 8))),
+                             CONST 4))),
+                          CONST 1),
+                         CONST 0)),
+                       ESEQ(
+                        EXP(
+                         ESEQ(
+                          MOVE(
+                           MEM(
+                            BINOP(PLUS,
+                             MEM(
+                              BINOP(PLUS,
+                               MEM(
+                                TEMP t100),
+                               CONST -20)),
+                             BINOP(TIMES,
+                              BINOP(MINUS,
+                               BINOP(PLUS,
+                                MEM(
+                                 BINOP(PLUS,
+                                  TEMP t100,
+                                  CONST -4)),
+                                CONST 7),
+                               MEM(
+                                BINOP(PLUS,
+                                 TEMP t100,
+                                 CONST 8))),
+                              CONST 4))),
+                           CONST 1),
+                          CONST 0)),
+                        ESEQ(
+                         EXP(
+                          ESEQ(
+                           MOVE(
+                            MEM(
+                             BINOP(PLUS,
+                              MEM(
+                               BINOP(PLUS,
+                                MEM(
+                                 TEMP t100),
+                                CONST -12)),
+                              BINOP(TIMES,
+                               MEM(
+                                BINOP(PLUS,
+                                 TEMP t100,
+                                 CONST 8)),
+                               CONST 4))),
+                            MEM(
+                             BINOP(PLUS,
+                              TEMP t100,
+                              CONST -4))),
+                           CONST 0)),
+                         ESEQ(
+                          EXP(
+                           CALL(
+                            NAME L12,
+                             BINOP(PLUS,
+                              MEM(
+                               BINOP(PLUS,
+                                TEMP t100,
+                                CONST 8)),
+                              CONST 1))),
+                          ESEQ(
+                           EXP(
+                            ESEQ(
+                             MOVE(
+                              MEM(
+                               BINOP(PLUS,
+                                MEM(
+                                 BINOP(PLUS,
+                                  MEM(
+                                   TEMP t100),
+                                  CONST -8)),
+                                BINOP(TIMES,
+                                 MEM(
+                                  BINOP(PLUS,
+                                   TEMP t100,
+                                   CONST -4)),
+                                 CONST 4))),
+                              CONST 0),
+                             CONST 0)),
+                           ESEQ(
+                            EXP(
+                             ESEQ(
+                              MOVE(
+                               MEM(
+                                BINOP(PLUS,
+                                 MEM(
+                                  BINOP(PLUS,
+                                   MEM(
+                                    TEMP t100),
+                                   CONST -16)),
+                                 BINOP(TIMES,
+                                  BINOP(PLUS,
+                                   MEM(
+                                    BINOP(PLUS,
+                                     TEMP t100,
+                                     CONST -4)),
+                                   MEM(
+                                    BINOP(PLUS,
+                                     TEMP t100,
+                                     CONST 8))),
+                                  CONST 4))),
+                               CONST 0),
+                              CONST 0)),
+                            ESEQ(
+                             EXP(
+                              ESEQ(
+                               MOVE(
+                                MEM(
+                                 BINOP(PLUS,
+                                  MEM(
+                                   BINOP(PLUS,
+                                    MEM(
+                                     TEMP t100),
+                                    CONST -20)),
+                                  BINOP(TIMES,
+                                   BINOP(MINUS,
+                                    BINOP(PLUS,
+                                     MEM(
+                                      BINOP(PLUS,
+                                       TEMP t100,
+                                       CONST -4)),
+                                     CONST 7),
+                                    MEM(
+                                     BINOP(PLUS,
+                                      TEMP t100,
+                                      CONST 8))),
+                                   CONST 4))),
+                                CONST 0),
+                               CONST 0)),
+                             ESEQ(
+                              MOVE(
+                               MEM(
+                                BINOP(PLUS,
+                                 TEMP t100,
+                                 CONST -4)),
+                               BINOP(PLUS,
+                                MEM(
+                                 BINOP(PLUS,
+                                  TEMP t100,
+                                  CONST -4)),
+                                CONST 1)),
+                              CONST 0)))))))))),
+                    SEQ(
+                     JUMP(
+                      NAME L37),
+                     SEQ(
+                      LABEL L36,
+                      SEQ(
+                       EXP(
+                        ESEQ(
+                         MOVE(
+                          MEM(
+                           BINOP(PLUS,
+                            TEMP t100,
+                            CONST -4)),
+                          BINOP(PLUS,
+                           MEM(
+                            BINOP(PLUS,
+                             TEMP t100,
+                             CONST -4)),
+                           CONST 1)),
+                         CONST 0)),
+                       SEQ(
+                        JUMP(
+                         NAME L37),
+                        LABEL L37))))))),
+                 CONST 0)),
+               ESEQ(
+                LABEL L38,
+                ESEQ(
+                 CJUMP(EQ,
+                  ESEQ(
+                   MOVE(
+                    TEMP t104,
+                    CONST 1),
+                   ESEQ(
+                    CJUMP(LT,
+                     MEM(
+                      BINOP(PLUS,
+                       TEMP t100,
+                       CONST -4)),
+                     MEM(
+                      BINOP(PLUS,
+                       MEM(
+                        TEMP t100),
+                       CONST -4)),
+                     L32,L33),
+                    ESEQ(
+                     LABEL L33,
+                     ESEQ(
+                      MOVE(
+                       TEMP t104,
+                       CONST 0),
+                      ESEQ(
+                       LABEL L32,
+                       TEMP t104))))),
+                  CONST 0,
+                  L34,L39),
+                 ESEQ(
+                  LABEL L34,
+                  CONST 0)))))))),
+          SEQ(
+           JUMP(
+            NAME L42),
+           LABEL L42))))))),
+    CONST 0)))

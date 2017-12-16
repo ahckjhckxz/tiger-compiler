@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chap7\absyn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\env.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\errormsg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\lex.yy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\parse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\prabsyn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\printtree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\semant.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\symbol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\table.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\temp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\translate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\types.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\uframe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chap7\y.tab.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chap7\absyn.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\env.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\errormsg.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\frame.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\parse.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\prabsyn.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\printtree.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\semant.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\symbol.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\table.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\temp.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\translate.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\tree.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\types.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\util.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chap7\y.tab.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

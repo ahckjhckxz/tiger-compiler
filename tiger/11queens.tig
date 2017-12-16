@@ -1,0 +1,15 @@
+/* A program to solve the 8-queens problem */
+
+let
+    var N := 8
+
+    function try() = 
+    let var r:=0
+    in
+     for r := 0 to N-1
+do	print("fuck\n")
+
+    end
+ in try()
+end
+	
